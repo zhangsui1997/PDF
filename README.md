@@ -16,7 +16,8 @@
 
 ### 3.下载项目
 
-找一个文件夹下执行  
+```cd ~```  
+
 ```git clone https://github.com/zhangsui1997/PDF.git```   
 
 ```pip3 install -r requirement```
