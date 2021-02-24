@@ -22,7 +22,7 @@
 
 ```pip3 install -r requirement```
 
-将要导出的pdf放到同一文件夹下    
+将要导出的pdf放到/Users/yourname/PDF目录下    
 ```python3 main.py```
-根据命令行提示执行即可
+根据命令行提示执行，等待结束后内容会在pdf同名文件夹下。
 
