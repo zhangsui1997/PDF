@@ -127,7 +127,7 @@ def run():
                     left += UNIT_SIZE
                     right += UNIT_SIZE
 
-                target = target.resize((WIDTH, HEIGHT), Image.ANTIALIAS)
+                target = target.resize((WIDTH, HEIGHT//2), Image.ANTIALIAS)
                 target.save(imagePath + "/" + str(start + 1) + "-" + str(start + 2) + ".jpg", quality=100)
                 start += 2
 
